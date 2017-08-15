@@ -1,26 +1,23 @@
 /**
 * Author: Heather Corey
 * jQuery Simple Parallax Plugin
-*
 */
 
 (function($) {
-
   $.fn.parallax = function(options) {
 
     var windowHeight = $(window).height();
 
     // Establish default settings
     var settings = $.extend({
-      speed        : 0.15
+      speed: 0.15,
+      fluid: false
     }, options);
 
     // Iterate over each object in collection
     return this.each( function() {
-
       // Save a reference to the element
       var $this = $(this);
-
       // Set up Scroll Handler
       $(document).scroll(function(){
 
@@ -34,7 +31,9 @@
         }
 
         var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
-        yBgPosition = yBgPosition < 0 ? yBgPosition : 0 ;
+        if( !settings.fluid ){
+          yBgPosition = yBgPosition < 0 ? yBgPosition : 0 ;
+        }
 
         // Apply the Y Background Position to Set the Parallax Effect
         $this.css('background-position', 'center ' + yBgPosition + 'px');
@@ -45,5 +44,8 @@
 }(jQuery));
 
 $('.img-container.parallax').parallax({
-  speed :	0.25
+  speed: 0.45
+});
+$('.img-container.team.parallax').parallax({
+  speed: 0.15
 });
