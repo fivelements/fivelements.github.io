@@ -1,15 +1,6 @@
-/**,*/
-/**:before,*/
-/**:after {*/
-  /*-moz-box-sizing: border-box;*/
-  /*-webkit-box-sizing: border-box;*/
-  /*box-sizing: border-box;*/
-  /*-moz-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;*/
-  /*-o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;*/
-  /*-webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;*/
-  /*transition: color 0.3s ease-in-out, background 0.3s ease-in-out;*/
-/*}*/
-
+section#pricing div.row{
+  padding-bottom: 40px;
+}
 .promos {
   max-width: 1140px;
   margin: 0 auto;
@@ -51,9 +42,6 @@
   padding: 0;
   list-style-type: none;
   color: #ccc;
-}
-.promo.scale li.buy {
-  padding-bottom: 20px;
 }
 .promo li {
   padding: .25em 0;
