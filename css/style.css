@@ -288,6 +288,10 @@ section#team figcaption {
   flex-direction: column;
   justify-content: center;
   background-color: rgba(51,51,51,0.0)!important;
+  padding: 5px;
+}
+section#team figcaption p {
+  font-size: 12px;
 }
 section#team img.teacher {
   max-width: 95%;
