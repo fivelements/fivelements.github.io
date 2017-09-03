@@ -42,19 +42,19 @@
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                  <!--<div class="row">-->
+                    <div class="nav-wrapper col-md-12 ">
                       <ul class="nav navbar-nav">
-                        <li><a href="#top">Início</a></li>
+                        <!--<li><a href="#top">Início</a></li>-->
                         <li><a href="#testimonials">Testemunhos</a></li>
                         <li><a href="#team">Instrutores</a></li>
                         <li><a href="#classes">Programas</a></li>
-                        <li><a href="#contactus">Contactos</a></li>
-                        <li><a href="academy.html">Preços</a></li>
-                        <li><a href="academy.html#horario">Horários</a></li>
+                        <li><a href="#contact">Contactos</a></li>
+                        <!--<li><a href="academy.html">Preços</a></li>-->
+                        <li><a href="#horario">Horários</a></li>
                       </ul>
                     </div>
-                  </div>
+                  <!--</div>-->
                 </div>
               </div>
             </nav>
@@ -203,7 +203,7 @@
               <figure class="img-container teacher imghvr-shutter-out-diag-1">
                 <img class="teacher" src="img/teacherSample.jpg" alt="">
                 <figcaption>
-                  <button class="btn see-more">Ver curriculo</button>
+                  <!--<button class="btn see-more">Ver curriculo</button>-->
                 </figcaption>
               </figure>
               <h4 class="teacher-name">Hélio Perdigão</h4>
@@ -262,7 +262,9 @@
       <div class="container-fluid">
         <div class="row">
           <div class="filter">
-            <button type="button" class="free-class btn btn-secondary">Peça já uma aula grátis</button>
+            <a href="#contact" class="free-class">
+              <button type="button" class="free-class btn btn-secondary">Peça já uma aula grátis</button>
+            </a>
           </div>
         </div>
       </div>
@@ -312,6 +314,23 @@
       </div>
     </section>
 
+    <section id="horario" class="break">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h2>Horarios</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="img/horario.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="break">
       <div class="container-fluid">
         <div class="row">
@@ -322,11 +341,23 @@
               </div>
             </div>
             <div class="col-md-10 col-md-offset-1 col-xs-12">
+              <div class="matriz academy-card">
+                <h4 class="location" >5EJ Ajuda</h4>
+                <a target="_blank" href="https://www.facebook.com/fiveelementslisboa/">
+                  <span><img class="logo" src="img/facebook-logo.png"></span>
+                </a>
+              </div>
               <div class="google-map">
                 <div id="matriz" class="map"></div>
               </div>
             </div>
             <div class="col-md-10 col-md-offset-1 col-xs-12">
+              <div class="rato academy-card">
+                <h4 class="location" >5EJ Rato</h4>
+                <a target="_blank" href="https://www.facebook.com/fivelementsjiujitsurato/">
+                  <span><img class="logo" src="img/facebook-logo.png"></span>
+                </a>
+              </div>
               <div class="google-map">
                 <div id="rato" class="map"></div>
               </div>
@@ -361,16 +392,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <div class="footer-manu">
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Terms</a></li>
-              </ul>
-            </div>
-            <p>Copyright &copy; Crafted by <a href="https://dcrazed.com/">Dcrazed</a>.</p>
+            <p>Copyright &copy; Five Elements Jiu-Jitsu</p>
+            <p>Crafted with <span class="love">Passion</span> by <a target="_blank" href="https://github.com/johnytiago">João Tiago</a>.</p>
           </div>
         </div>
       </div>
@@ -385,9 +408,15 @@
     <script type="text/javascript" src="js/css3-animate-it.js"></script>
     <script type="text/javascript" src="js/parallax.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!-- Google Map -->
+    <script src="js/smooth-scroll.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/google-map-init.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        easing: 'easeInOutQuad'
+      });
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

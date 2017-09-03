@@ -125,16 +125,18 @@ jQuery(document).ready(function() {
 
   function b() {
     var b = document.getElementById("matriz");
-    var e = document.getElementById("rato");
     var c = new google.maps.Map(b, a);
-    var f = new google.maps.Map(e, a);
     new google.maps.Marker({
       position: new google.maps.LatLng(38.7069735, -9.1894184),
       map: c,
       title: "Snazzy!"
     })
+
+    var e = document.getElementById("rato");
+    a.center = new google.maps.LatLng(38.7198593, -9.1603465);
+    var f = new google.maps.Map(e, a);
     new google.maps.Marker({
-      position: new google.maps.LatLng(38.7069735, -9.1894184),
+      position: new google.maps.LatLng(38.7198593, -9.1603465),
       map: f,
       title: "Snazzy!"
     })
