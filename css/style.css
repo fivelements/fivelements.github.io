@@ -125,17 +125,17 @@ section#intro div.slider {
   min-height: 280px;
 }
 section#intro div.slider-1 {
-  background: url("../img/header.jpg") no-repeat;
+  background: url("../img/avancado.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#intro div.slider-2 {
-  background: url("../img/2.jpg") no-repeat;
+  background: url("../img/fundamental.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#intro div.slider-3 {
-  background: url("../img/kids.jpg") no-repeat;
+  background: url("../img/kids1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -231,12 +231,12 @@ section#testimonials div.slider {
   min-height: 300px;
 }
 section#testimonials div.slider-1 {
-  background: url("../img/testimonial1.jpg") no-repeat;
+  background: url("../img/testimonial11.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#testimonials div.slider-2 {
-  background: url("../img/testimonial2.jpg") no-repeat;
+  background: url("../img/testimonial22.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -401,7 +401,7 @@ section#horario img{
 section#free-class div.row {
   height: 30vh;
   min-height: 200px;
-  background: url("../img/free-class.jpg") no-repeat;
+  background: url("../img/free-class1.jpg") no-repeat;
   background-position: 50% 30%;
   background-size: cover;
 }
@@ -461,17 +461,17 @@ section#classes p.class-description {
   background: rgba(113, 113, 113, 0.27);
 }
 section#classes div#class1 {
-  background: url("../img/header.jpg") no-repeat;
+  background: url("../img/avancado.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#classes div#class2 {
-  background: url("../img/2.jpg") no-repeat;
+  background: url("../img/fundamental.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#classes div#class3 {
-  background: url("../img/kids.jpg") no-repeat;
+  background: url("../img/kids1.jpg") no-repeat;
   background-position: right;
   background-size: cover;
 }
