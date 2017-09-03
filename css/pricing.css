@@ -1,15 +1,22 @@
-section#pricing div.row{
-  padding-bottom: 40px;
+section#pricing div.wrapper{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: url('../img/academy.jpg');
+  background-size: cover;
+}
+section#pricing div.filter{
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 62, 150, 0.26);
 }
 .promos {
   max-width: 1140px;
   margin: 0 auto;
 }
-
 .promo {
   margin: 1em .5em 1.625em;
   padding: .25em 0 2em;
-  background: #353535;
+  background: #616161;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.625;
@@ -52,7 +59,7 @@ section#pricing div.row{
 .promo .price {
   margin: .5em 0;
   padding: .25em 0;
-  background: #292b2e;
+  background: #484a4c;
   font-size: 250%;
   color: #f9f9f9;
 }
@@ -86,6 +93,6 @@ section#pricing div.row{
     box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
   }
   .scale .price {
-    color: #2a7fc1;
+    color: white;
   }
 }
