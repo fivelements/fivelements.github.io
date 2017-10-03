@@ -1,13 +1,28 @@
 section#pricing div.wrapper{
-  padding-top: 50px;
-  padding-bottom: 70px;
+  /*padding-top: 50px;*/
+  padding-bottom: 90px;
+}
+section#pricing div.wrapper.matriz{
   background: url('../img/academy.jpg');
   background-size: cover;
 }
+section#pricing div.wrapper.rato{
+  background: url('../img/rato.jpeg');
+  background-size: cover;
+}
+section#pricing div.title-section {
+  background: rgba(255, 255, 255, 0.77);
+}
+section#pricing div.section-title h2{
+  font-weight: 200;
+}
+section#pricing div.section-title span{
+  font-weight: 600;
+}
 section#pricing div.filter{
+  padding-top: 25px;
   width: 100%;
-  height: 100%;
-  background: rgba(8, 62, 150, 0.26);
+  /*background: rgba(47, 118, 181, 0.26);*/
 }
 .promos {
   max-width: 1140px;
@@ -15,8 +30,8 @@ section#pricing div.filter{
 }
 .promo {
   margin: 1em .5em 1.625em;
-  padding: .25em 0 2em;
-  background: #616161;
+  padding: .25em 0 1.1em;
+  background: #8a8a8a;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.625;
@@ -48,7 +63,7 @@ section#pricing div.filter{
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: #ccc;
+  color: #ececec;
 }
 .promo li {
   padding: .25em 0;
@@ -58,8 +73,8 @@ section#pricing div.filter{
 }
 .promo .price {
   margin: .5em 0;
-  padding: .25em 0;
-  background: #484a4c;
+  padding: .05em 0;
+  background: #717171;
   font-size: 250%;
   color: #f9f9f9;
 }
@@ -82,7 +97,7 @@ section#pricing div.filter{
 }
 
 .scale button {
-  background: #2a5475;
+  background: #237ac1;
 }
 .scale button:hover {
   background: rgba(55, 160, 243, 0.47);

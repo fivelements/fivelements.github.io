@@ -121,13 +121,13 @@ section#intro div.slider {
   min-height: 280px;
 }
 section#intro div.slider-1 {
-  background: url("../img/avancado.jpg") no-repeat;
-  background-position: center;
+  background: url("../img/avancado1.jpg") no-repeat;
+  background-position: center 70%;
   background-size: cover;
 }
 section#intro div.slider-2 {
-  background: url("../img/fundamental.jpg") no-repeat;
-  background-position: center;
+  background: url("../img/fundamental1.jpg") no-repeat;
+  background-position: center 25%;
   background-size: cover;
 }
 section#intro div.slider-3 {
@@ -228,7 +228,7 @@ section#testimonials div.slider {
 }
 section#testimonials div.slider-1 {
   background: url("../img/testimonial11.jpg") no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
 }
 section#testimonials div.slider-2 {
@@ -379,18 +379,27 @@ section#team button.see-more:hover {
 section#horario img{
   display: block;
   margin: auto;
-  width: 60%;
+  width: 90%;
 }
-@media screen and (max-width: 900px) {
-  section#horario img{
-    width: 80%;
-  }
+section#horario div.title-section {
+  background: rgba(255, 255, 255, 0.77);
+  margin-bottom: 50px;
 }
-@media screen and (max-width: 450px) {
-  section#horario img{
-    width: 98%;
-  }
+section#horario div.wrapper {
+  background: url("../img/lone-belt.jpg");
+  background-size: cover;
+  padding-bottom: 50px;
 }
+/*@media screen and (max-width: 900px) {*/
+  /*section#horario img{*/
+    /*width: 80%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 450px) {*/
+  /*section#horario img{*/
+    /*width: 98%;*/
+  /*}*/
+/*}*/
 /* END HORARIOS SECTION */
 
 /* FREE CLASS SECTION */
@@ -457,12 +466,12 @@ section#classes p.class-description {
   background: rgba(113, 113, 113, 0.27);
 }
 section#classes div#class1 {
-  background: url("../img/avancado.jpg") no-repeat;
+  background: url("../img/avancado1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 section#classes div#class2 {
-  background: url("../img/fundamental.jpg") no-repeat;
+  background: url("../img/fundamental1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
