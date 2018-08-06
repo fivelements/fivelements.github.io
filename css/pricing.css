@@ -7,8 +7,9 @@ section#pricing div.wrapper.matriz{
   background-size: cover;
 }
 section#pricing div.wrapper.rato{
-  background: url('../img/rato.jpeg');
+  background: url(../img/lone-belt.jpg);
   background-size: cover;
+  background-position: center 34%;
 }
 section#pricing div.title-section {
   background: rgba(255, 255, 255, 0.77);
