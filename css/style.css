@@ -280,7 +280,7 @@ section#testimonials div.testimonial-wrapper {
   border-top: 1px solid rgba(255, 255, 255, 0.6);;
   border-left: 1px solid rgba(255, 255, 255, 0.6);;
   background-color: rgba(255, 255, 255, 0.6);
-  margin-top: 25vh;
+  margin-top: 8vh;
 }
 section#testimonials p.testimonial {
   color: rgba(12, 12, 12, 0.7);
@@ -305,7 +305,6 @@ section#testimonials p.student {
 @media screen and (max-width: 1024px) {
   section#testimonials div.testimonial-wrapper {
     margin-top: 5vh;
-    margin-bottom: 5vh;
   }
   section#intro div.slider {
     height: 100vh;
@@ -536,7 +535,12 @@ section#classes div#class3 {
   background-position: right;
   background-size: cover;
 }
-@media screen and (max-width: 990px) {
+section#classes div#class4 {
+  background: url("../img/private-classes.jpg") no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
   section#classes div.classes {
     flex-direction: column;
   }
