@@ -73,7 +73,8 @@ header .navbar {
   text-transform: uppercase;
 }
 header .navbar-brand {
-  height: auto;
+  height: 50px;
+  display: flex;
   padding: 0px;
   position: absolute;
   z-index: 1;
@@ -104,6 +105,10 @@ div.navbar-collapse {
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
+}
+#logo-alt {
+  width: auto;
+  height: 50px;
 }
 /* END HEADER START */
 
