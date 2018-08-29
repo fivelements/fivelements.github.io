@@ -26,7 +26,7 @@ $(document).ready(function(){
 function sendmail() {
   var subject = $("#emailSubject").val()
   var body = $("#emailBody").val()
-  var link = "mailto:info@clubejiujitsulisboa.com"
+  var link = "mailto:5ejmatriz@gmail.com"
   + "?subject=" + subject
   + "&body=" + body;
   window.location.href = link;
