@@ -124,21 +124,27 @@ jQuery(document).ready(function() {
   };
 
   function b() {
-    var b = document.getElementById("matriz");
-    var c = new google.maps.Map(b, a);
+    var c = new google.maps.Map(document.getElementById("matriz"), a);
     new google.maps.Marker({
       position: new google.maps.LatLng(38.7069735, -9.1894184),
       map: c,
-      title: "Snazzy!"
+      title: "5EJ Ajuda"
     })
 
-    var e = document.getElementById("rato");
     a.center = new google.maps.LatLng(38.7198593, -9.1603465);
-    var f = new google.maps.Map(e, a);
+    var d = new google.maps.Map(document.getElementById("rato"), a);
     new google.maps.Marker({
       position: new google.maps.LatLng(38.7198593, -9.1603465),
-      map: f,
-      title: "Snazzy!"
+      map: d,
+      title: "5EJ Rato"
+    })
+
+    a.center = new google.maps.LatLng(38.7807602, -9.166068);
+    var e = new google.maps.Map(document.getElementById("lumiar"), a);
+    new google.maps.Marker({
+      position: new google.maps.LatLng(38.7807602, -9.166068),
+      map: e,
+      title: "5EJ Lumiar"
     })
   }
 
