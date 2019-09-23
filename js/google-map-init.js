@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 
   var a = {
     zoom: 17,
-    scrollwheel: false,
+    scrollwheel: true,
     center: new google.maps.LatLng(38.7069735, -9.1894184),
     styles: [{
       "featureType": "landscape",
@@ -140,6 +140,7 @@ jQuery(document).ready(function() {
     })
 
     a.center = new google.maps.LatLng(38.7807602, -9.1638793);
+    a.zoom = 15
     var e = new google.maps.Map(document.getElementById("lumiar"), a);
     new google.maps.Marker({
       position: new google.maps.LatLng(38.7807602, -9.1638793),
