@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
   "use strict";
 
   var a = {
-    zoom: 17,
+    zoom: 15,
     scrollwheel: true,
     center: new google.maps.LatLng(38.7069735, -9.1894184),
     styles: [{
