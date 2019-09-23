@@ -139,10 +139,10 @@ jQuery(document).ready(function() {
       title: "5EJ Rato"
     })
 
-    a.center = new google.maps.LatLng(38.7807602, -9.166068);
+    a.center = new google.maps.LatLng(38.7807602, -9.1638793);
     var e = new google.maps.Map(document.getElementById("lumiar"), a);
     new google.maps.Marker({
-      position: new google.maps.LatLng(38.7807602, -9.166068),
+      position: new google.maps.LatLng(38.7807602, -9.1638793),
       map: e,
       title: "5EJ Lumiar"
     })
