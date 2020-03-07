@@ -159,63 +159,69 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6 col-md-offset-0 col-xs-12 col-sm-10 col-sm-offset-1 wrapper">
+
               <div class="col-md-12">
                 <div class="section-title">
-                  <h2>Onde estamos</h2>
+                  <h1>Onde estamos</h1>
                 </div>
               </div>
+
               <div class="col-md-10 col-md-offset-1 col-xs-12">
                 <div class="matriz academy-card">
                   <h4 class="location" >5EJ Ajuda</h4>
-                  <a target="_blank" href="https://www.facebook.com/fiveelementslisboa/">
-                    <span><img class="logo" src="img/facebook-logo.png"></span>
-                  </a>
+                  <div>
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/fiveelementslisboa/">
+                      <span><img class="logo" src="img/facebook-logo.png" alt="Facebook"></span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=FiveElementsJiuJitsuMatrix&query_place_id=ChIJqePoq17LHg0R01Tw0cEdhL0">
+                      <span><img class="logo" src="img/icons/map.svg" alt="Facebook"></span>
+                    </a>
+                  </div>
                 </div>
                 <div class="google-map">
                   <div id="matriz" class="map"></div>
                 </div>
               </div>
+
               <div class="col-md-10 col-md-offset-1 col-xs-12">
                 <div class="rato academy-card">
                   <h4 class="location" >5EJ Rato</h4>
-                  <a target="_blank" href="https://www.facebook.com/fivelementsjiujitsurato/">
-                    <span><img class="logo" src="img/facebook-logo.png"></span>
-                  </a>
+                  <div>
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/fivelementsjiujitsurato/">
+                      <span><img class="logo" src="img/facebook-logo.png" alt="Facebook"></span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=FiveElementsJiuJitsuRato&query_place_id=ChIJfZlwsWUzGQ0RgQ2ygqouaww">
+                      <span><img class="logo" src="img/icons/map.svg" alt="Facebook"></span>
+                    </a>
+                  </div>
                 </div>
                 <div class="google-map">
                   <div id="rato" class="map"></div>
                 </div>
               </div>
-              <div class="col-md-10 col-md-offset-1 col-xs-12">
-                <div class="lumiar academy-card">
-                  <h4 class="location" >5EJ Lumiar</h4>
-                  <a target="_blank" href="https://www.facebook.com/fiveelementslisboa/">
-                    <span><img class="logo" src="img/facebook-logo.png"></span>
-                  </a>
-                </div>
-                <div class="google-map">
-                  <div id="lumiar" class="map"></div>
-                </div>
-              </div>
             </div>
+
             <div id="contact" class="col-md-6 col-md-offset-0 col-xs-12 col-sm-10 col-sm-offset-1 wrapper">
               <div class="col-md-12">
                 <div class="section-title">
-                  <h2>Contactos</h2>
+                  <h1>Contactos</h1>
                 </div>
               </div>
               <div class="col-md-10 col-md-offset-1 form-wrapper">
                 <form>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Escolhá o email ao enviar a mensagem..." disabled>
+                    <label for="email"></label>
+                    <input type="text" class="form-control" placeholder="Escolherá o email quando confirmar a mensagem... " disabled>
                   </div>
                   <div class="form-group">
+                    <label for="email subject"></label>
                     <input id="emailSubject" type="text" class="form-control" value="&quot;Pedido de Aula Experimental&quot;">
                   </div>
                   <div class="form-group-2">
+                    <label for="email body"></label>
                     <textarea id="emailBody" class="form-control required" rows="4" placeholder="A sua mensagem"></textarea>
                   </div>
-                  <button id="sendMail" class="btn btn-default" onclick="sendmail(); return false;">Enviar Mensagem</button>
+                  <button id="sendMail" class="btn btn-default" onclick="sendmail(); return false;">Confirmar e Enviar</button>
                 </form>
               </div>
             </div>
@@ -223,12 +229,17 @@
         </div>
       </section>
 
+      <a href="https://wa.me/351915267080">
+        <img class="chat-icon" src="img/icons/whatsapp.svg" alt="whatsapp logo">
+      </a>
+
       <footer>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
+              <p><a href="pp.html">Politica de Privacidade</a></p>
               <p>Copyright &copy; Five Elements Jiu-Jitsu</p>
-              <p>Crafted with <span class="love">Passion</span> by <a target="_blank" href="https://github.com/johnytiago">João Tiago</a>.</p>
+              <p>Crafted with <span class="love">Passion</span> by <a target="_blank" rel="noopener" href="https://github.com/johnytiago">João Tiago</a>.</p>
             </div>
           </div>
         </div>
