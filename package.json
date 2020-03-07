@@ -1,0 +1,26 @@
+{
+  "name": "fivelements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e .css --ignore \"*.min.*\" --exec \"npm run min-css\" & browser-sync start --server --files \"js, img, css, *.html\" ",
+    "min-css": "uglifycss --output css/style.min.css css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivelements/fivelements.github.io.git"
+  },
+  "author": "johnytiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fivelements/fivelements.github.io/issues"
+  },
+  "homepage": "https://github.com/fivelements/fivelements.github.io#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2",
+    "uglify-js": "^3.8.0",
+    "uglifycss": "0.0.29"
+  }
+}
